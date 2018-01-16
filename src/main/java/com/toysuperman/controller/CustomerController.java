@@ -1,5 +1,7 @@
 package com.toysuperman.controller;
 
+import org.springframework.web.bind.annotation.RestController;
+
 /**
  * \* Created with IntelliJ IDEA.
  * \* User: xudeyin
@@ -7,7 +9,8 @@ package com.toysuperman.controller;
  * \* Time: 11:29
  * \* To change this template use File | Settings | File Templates.
  * \* Description: xudeyin
- * \
+ * @author  xudeyin
  */
-public class customerController {
+@RestController
+public class CustomerController {
 }
