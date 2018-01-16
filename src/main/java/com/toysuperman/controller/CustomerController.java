@@ -1,5 +1,6 @@
 package com.toysuperman.controller;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,5 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author  xudeyin
  */
 @RestController
+@RequestMapping(value = "/customer")
 public class CustomerController {
+
+
 }
